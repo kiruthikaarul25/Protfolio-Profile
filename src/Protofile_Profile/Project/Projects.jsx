@@ -34,7 +34,7 @@ const Projects = () => {
     },
     {
       title: "Signup/Login",
-      desc: "Authentication system using Servlets and JDBC.",
+      desc: "Authentication system using Servlets and JDBC and SpringBoot,Hibernate also",
       tech: "HTML, CSS, Java, MySQL"
     },
     {
@@ -43,14 +43,9 @@ const Projects = () => {
       tech: "HTML, CSS, JavaScript"
     },
     {
-      title: "CRUD App",
-      desc: "Create, Read, Update, Delete operations.",
-      tech: "Java, JDBC, MySQL"
-    },
-    {
       title: "Responsive UI",
       desc: "Mobile-friendly UI designs.",
-      tech: "HTML, CSS, Sass"
+      tech: "HTML, CSS3"
     }
   ];
 
