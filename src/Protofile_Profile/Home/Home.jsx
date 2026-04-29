@@ -22,7 +22,7 @@ const Home = () => {
     },
     {
       title: "Signup/Login",
-      desc: "Authentication system using Servlets and JDBC.",
+      desc: "Authentication system using Servlets and JDBC ans SpringBoot,Hibernate also",
       tech: "HTML, CSS, Java, MySQL"
     },
     {
