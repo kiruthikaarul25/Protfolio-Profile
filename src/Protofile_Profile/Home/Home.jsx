@@ -30,15 +30,11 @@ const Home = () => {
       desc: "10+ UI projects using HTML, CSS, JS.",
       tech: "HTML, CSS, JavaScript"
     },
-    {
-      title: "CRUD App",
-      desc: "Create, Read, Update, Delete operations.",
-      tech: "Java, JDBC, MySQL"
-    },
+
     {
       title: "Responsive UI",
       desc: "Mobile-friendly UI designs.",
-      tech: "HTML, CSS, Sass"
+      tech: "HTML, CSS3"
     }
   ];
     const [form, setForm] = useState({
