@@ -1,5 +1,5 @@
 
-$primary-dark: #0f172a;
+$primary-dark: #2c1538;
 $primary: #4f46e5;
 $primary-light: #818cf8;
 $white: #ffffff;
@@ -39,7 +39,7 @@ $transition: all 0.3s ease;
       transition: $transition;
 
       &:hover {
-        background: linear-gradient(20deg,rgb(32, 32, 211),rgb(43, 113, 235));
+  background: linear-gradient(120deg, #9306e5 0%, #af3dfb 100%);
         border-color: $primary;
         transform: translateY(-2px);
       }
@@ -117,7 +117,8 @@ $transition: all 0.3s ease;
       text-align: center;
 
       &:hover {
-        background: linear-gradient(20deg,rgb(32, 32, 211),rgb(43, 113, 235));
+          background: linear-gradient(120deg, #9306e5 0%, #af3dfb 100%);
+
         border-color: $primary;
       }
     }

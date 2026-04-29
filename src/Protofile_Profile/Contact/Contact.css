@@ -1,6 +1,6 @@
 
 :root {
-  --primary-color: #2c3e66;
+  --primary-color: #b65dd9;
   --accent-color: #ff7e67;
   --grey-bg: #e9ecef;
   --white-card: #ffffff;
@@ -12,7 +12,9 @@
 }
 
 .contact {
-background: linear-gradient(135deg, #6bb5e8 0%, #4682b4 30%, #2c7da0 70%, #1e5a8a 100%);  padding: 5rem 2rem;
+  height: 100vh;
+  padding: 20px;
+  background: linear-gradient(120deg, #9306e5 0%, #af3dfb 100%);
 }
 
 .contact h2 {
@@ -54,7 +56,7 @@ background: linear-gradient(135deg, #6bb5e8 0%, #4682b4 30%, #2c7da0 70%, #1e5a8
 
 .contact-info {
   flex: 1;
-  background: linear-gradient(135deg, var(--primary-color), #1e3a5f);
+  background: linear-gradient(135deg, var(--primary-color), #491e5f);
   padding: 2rem;
   color: white;
   display: flex;
@@ -131,7 +133,7 @@ background: linear-gradient(135deg, #6bb5e8 0%, #4682b4 30%, #2c7da0 70%, #1e5a8
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  background-color: rgb(175, 175, 187);
+  background-color: rgb(217, 133, 245);
   justify-content: center;
   align-items: center;
 }
@@ -161,7 +163,7 @@ background: linear-gradient(135deg, #6bb5e8 0%, #4682b4 30%, #2c7da0 70%, #1e5a8
 }
 
 .contact-form button {
-    background: #084177;
+    background: #a522f6;
    width: 400px;
   color: white;
   border: none;
@@ -175,7 +177,7 @@ background: linear-gradient(135deg, #6bb5e8 0%, #4682b4 30%, #2c7da0 70%, #1e5a8
 }
 
 .contact-form button:hover {
-  background: #63a4e1;
+  background: #c947ed;
   color: black;
   transform: translateY(-2px);
   box-shadow: 0 5px 12px rgba(255, 126, 103, 0.3);
