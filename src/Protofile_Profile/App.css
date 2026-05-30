@@ -1,0 +1,16 @@
+.app { min-height:100vh; display:flex; flex-direction:column; }
+main section { scroll-margin-top:68px; }
+
+.reveal{opacity:0;transform:translateY(32px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-left{opacity:0;transform:translateX(-32px);transition:opacity 0.7s ease,transform 0.7s ease}
+.reveal-left.visible{opacity:1;transform:translateX(0)}
+.reveal-right{opacity:0;transform:translateX(32px);transition:opacity 0.7s ease,transform 0.7s ease}
+.reveal-right.visible{opacity:1;transform:translateX(0)}
+
+.site-footer{
+  background:#0f2040;color:rgba(255,255,255,0.55);
+  text-align:center;padding:2.5rem;font-size:0.82rem;
+  font-family:'Inter',sans-serif;
+}
+.site-footer span{color:#93c5fd}

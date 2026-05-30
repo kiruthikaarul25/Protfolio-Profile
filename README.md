@@ -1,16 +1,101 @@
-# React + Vite
+# Kiruthika A — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dark-themed Java Full Stack Developer portfolio built with **React + Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🗂️ Project Structure
 
-## React Compiler
+```
+keerthi_portfolio/
+├── index.html                        ← App entry point (loads fonts + Tabler Icons)
+├── package.json                      ← Dependencies & scripts
+├── vite.config.js                    ← Vite config
+│
+└── src/
+    ├── main.jsx                      ← React root mount
+    ├── index.css                     ← Global reset & CSS variables
+    │
+    └── Protofile_Profile/
+        ├── App.jsx                   ← Router (BrowserRouter + Routes)
+        │
+        ├── Nav/
+        │   ├── Nav.jsx               ← Sticky navbar + mobile sidebar
+        │   └── Nav.scss              ← Navbar styles
+        │
+        ├── Home/
+        │   ├── Home.jsx              ← Hero, Quick About, Skills Preview, Featured Projects
+        │   ├── Home.scss             ← Home page styles
+        │   └── kee.jpeg              ← Profile photo
+        │
+        ├── About/
+        │   ├── About.jsx             ← Full bio, internships, certifications, skills
+        │   └── About.scss            ← About page styles
+        │
+        ├── Project/
+        │   ├── Projects.jsx          ← All 10 projects with search & filter
+        │   └── Project.css           ← Projects page styles
+        │
+        └── Contact/
+            ├── Contact.jsx           ← Contact form + info
+            └── Contact.css           ← Contact page styles
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Install dependencies
+```bash
+npm install
+```
+
+### 2. Start development server
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### 3. Build for production
+```bash
+npm run build
+```
+
+---
+
+## 📦 Tech Stack
+
+| Layer      | Technology                        |
+|------------|-----------------------------------|
+| Framework  | React 19 + Vite                   |
+| Routing    | React Router DOM v7               |
+| Styling    | SCSS, Less, CSS (per component)   |
+| Icons      | Tabler Icons (CDN)                |
+| Fonts      | Syne + DM Sans (Google Fonts)     |
+
+---
+
+## ✨ Projects Included
+
+| # | Project            | Category   |
+|---|--------------------|------------|
+| 1 | ShieldHer          | Full Stack |
+| 2 | SportsZone         | Full Stack |
+| 3 | Zivvo Chatbox      | Full Stack |
+| 4 | AI Career Platform | Full Stack |
+| 5 | Event Management   | Full Stack |
+| 6 | Job Portal         | Full Stack |
+| 7 | Portfolio Website  | Frontend   |
+| 8 | Responsive UI Kit  | Frontend   |
+| 9 | CRUD Application   | Java       |
+|10 | Auth System        | Java       |
+
+---
+
+## 📄 Pages
+
+- **Home** — Hero section, quick bio, skills chips, featured projects
+- **About** — Full bio, internships, certifications, tech skills
+- **Projects** — All 10 projects with live search + category filter
+- **Contact** — Contact info + message form
