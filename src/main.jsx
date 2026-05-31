@@ -1,10 +1,12 @@
-import { StrictMode, useEffect } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './Protofile_Profile/App.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./Protofile_Profile/App";
+import Particles from "./Protofile_Profile/Particles";
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <Particles />
     <App />
-  </StrictMode>,
-)
+  </React.StrictMode>
+);

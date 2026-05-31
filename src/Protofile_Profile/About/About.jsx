@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import "./About.scss";
+import "./About.less";
 
 const TECH = [
   {l:"Java",c:"#f89820"},{l:"Spring Boot",c:"#6db33f"},{l:"React.js",c:"#61dafb"},
